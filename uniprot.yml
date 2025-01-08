@@ -1,0 +1,13 @@
+name: uniprot
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - aria2=1.37.0
+  - mmseqs2=13.45111
+  - pip
+  - pip:
+      - pandas==2.2.3
+      - argparse==1.4.0
