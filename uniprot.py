@@ -7,6 +7,7 @@ import pandas as pd
 import subprocess
 
 __author__ = "Patricia Agudelo-Romero, PhD"
+__email__ = "p.agudeloromero@gmail.com"
 
 def check_file_exists(file_path, description="file"):
     """
